@@ -149,7 +149,9 @@ arkhd tx staking create-validator \
   --gas="auto" \
   --gas-adjustment="1.5" \
   --gas-prices="0.0arkh" \
-  --from=wallet
+  --from=wallet \
+  --fees=5000arkh \
+  --gas=200000
 ```
 
 ---
